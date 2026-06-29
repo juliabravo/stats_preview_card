@@ -87,12 +87,11 @@ span {
 
 .right {
 	flex: 1 1 50%;
-	background-image: url('/images/image-header-desktop.jpg');
+	background-image: url('./images/image-header-desktop.jpg');
 	background-size: cover;
 	background-position: center;
 	background-color: var(--purple);
 	background-blend-mode: multiply;
-	/* border-radius: 8px; */
 }
 
 @media (max-width: 450px) {
